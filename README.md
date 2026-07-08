@@ -274,9 +274,6 @@ Currently building practical Blue Team skills through real-world security labs.
 
 https://github.com/joaovitorcardoso515-bit
 
-**LinkedIn**
-
-(Add your LinkedIn URL)
 
 ---
 
