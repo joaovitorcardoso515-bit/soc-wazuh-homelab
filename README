@@ -12,3 +12,18 @@ This project demonstrates the deployment of a Security Operations Center (SOC) u
 - Linux Audit
 - File Integrity Monitoring
 - MITRE ATT&CK
+
+```mermaid
+flowchart LR
+
+    A["💻 Windows 11 Host"]
+
+    subgraph VirtualBox
+        B["🖥️ Ubuntu Server<br/>Wazuh Manager<br/>Wazuh Indexer<br/>Wazuh Dashboard"]
+        C["⚔️ Kali Linux"]
+    end
+
+    C -->|"SSH / Nmap / Attacks"| B
+    B -->|"Alerts & Logs"| A
+    A -->|"HTTPS :5601"| B
+```
