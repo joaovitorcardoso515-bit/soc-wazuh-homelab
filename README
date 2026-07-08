@@ -1,0 +1,14 @@
+# SOC Wazuh Homelab
+
+## Overview
+
+This project demonstrates the deployment of a Security Operations Center (SOC) using Wazuh to monitor Linux systems, detect attacks, investigate alerts and document incident response.
+
+## Technologies
+
+- Ubuntu Server
+- Kali Linux
+- Wazuh
+- Linux Audit
+- File Integrity Monitoring
+- MITRE ATT&CK
